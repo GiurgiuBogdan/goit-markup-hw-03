@@ -178,7 +178,7 @@ margin-left: 255px;
   color: #212121;
 }
 
-.text-section, .text-section-team {
+.text-section, .text-section-team, .text-section-portfolio {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -405,14 +405,14 @@ background: #F5F4FA;
   list-style: none;
 }
 
-.text-section {
+.text-section-portfolio {
   width: 322px;
 height: 30px;
 left: 1039px;
 top: 616px;
 }
 
-.text-section {
+.text-section-portfolio {
   padding: 0px 24px 20px 24px;
 }
 
