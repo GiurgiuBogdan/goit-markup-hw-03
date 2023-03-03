@@ -22,7 +22,7 @@
 }
 
 .company-logo {
-margin-left: 500px;
+margin-left: 19%;
 }
 
 .company-logo::after {
@@ -440,22 +440,21 @@ height: 251px;
 .company-logo-footer {
     display: flex;
   flex-grow: 1;
-  margin-left: 500px;
   padding-top: 60px;
+  margin-left: 19%;
 }
 
 .text-section-adress {
     display: flex;
     flex-grow: 1;
-    align-items: center;
-    margin: 28px 1100px 12px 460px ;
+    margin: 28px 1100px 12px 315px ;
 }
 
 .text-section-contact {
     display: flex;
     flex-grow: 1;
     align-items: center;
-    margin: 12px 1178px 12px 460px ;
+    margin: 12px 1178px 12px 315px ;
 }
 
 * {
