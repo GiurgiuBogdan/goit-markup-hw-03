@@ -1,11 +1,9 @@
 .page-header {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-  background: #ffffff;
   display: flex;
+  flex-grow: 1;
+  align-items: center;
+  height: 80px;
+  background: #ffffff;
   border: 1px solid #ECECEC;
   }
 
@@ -24,7 +22,7 @@
 }
 
 .company-logo {
-margin-left: 255px;
+margin-left: 500px;
 }
 
 .company-logo::after {
@@ -111,10 +109,9 @@ margin-left: 255px;
 }
 
 .first-section {
-  position: absolute;
-  width: 1600px;
+  display: flex;
+  justify-content: center;
   height: 600px;
-  left: 0px;
   top: 80px;
    }
 
@@ -123,11 +120,12 @@ margin-left: 255px;
 }
 
 .title {
-  position: absolute;
+  display: flex;
+  flex-grow: wrap;
+  align-content: center;
+  margin-top: 200px;
   width: 696px;
   height: 120px;
-  top: 200px;
-  margin-left: 452px;
 }
 
 .title {
@@ -146,14 +144,15 @@ margin-left: 255px;
 .request-our-service-button {
   box-sizing: border-box;
   padding: 10px 20px;
+  display: flex;
+  align-content: center;
 }
 
 .request-our-service-button {
   position: absolute;
   width: 200px;
   height: 50px;
-  left: 700px;
-  top: 350px;
+  margin-top: 350px;
   background-color: #2196f3;
   border-style: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -195,20 +194,12 @@ margin-left: 255px;
     height: 75px;
     top: 800px;
     display: flex;
-    flex-grow: 1;
-    align-items: center; 
+    grid-row: auto;
+    justify-content: center;
     gap: 30px:
 }
 
-.text-section-team {
-  display: flex;
-  flex-grow: 2;
-  align-items: center;
-  margin-left: 90px;
-  gap: 250px;
-}
-
-.title-section {
+.title-section, .title-section-team {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -239,10 +230,10 @@ margin-left: 255px;
 .portfolio-button {
   display: flex;
   flex-grow: 1;
-  align-items: center;
+  justify-content: center;
   gap: 8px;
-  margin-top: 174px;
-  margin-left: 542px;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .link-portfolio {
@@ -292,8 +283,7 @@ top: 174px;
   flex-direction: row;
   justify-content: space-around;
   gap: 30px;
-  margin-top: 50px;
-  margin-left: 215px;
+  margin:auto;
 }
 
 .product {
@@ -312,49 +302,51 @@ top: 174px;
 }
 
 .product-box {
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
 width: 370px;
 height: 404px;
 }
 
 .product-box-element {
-  background: #FFFFFF;
-border: 1px solid #EEEEEE;
 }
 
 .strong-points{
-    width: 1170px;
-    height: 101px;
+  display: flex ;   
+  justify-content: center;
 }
 
 .company-strong-points {
   list-style: none;
   display: flex;
-  flex-grow: 1;
   align-items: center;
-  margin-top: 774px;
-  margin-left: 215px;
-  margin-right: 215px;
+  width: 1170px;
+    height: 101px;
+  margin-top: 94px;
   gap: 30px;
 }
 
 .sub-title-section {
     width: 270px;
     height: 16px;
-    top: 774px;
     bottom: 10px;
     align-items: center;
 }
 
 .what-we-do {
+  display: block;
+  align-content: center;
+  margin: auto;
+  margin-top: 94px;
     width: 1170px;
     height: 386px;
+    margin-bottom: 94px;
 }
 
 .title-section {
-  display: flex;
+  display: block;
   flex-grow: 1;
-  align-items: center;
-  margin-left: 701px;
+  align-content: center;
   width: 198px
   height: 42px;
 }
@@ -365,22 +357,26 @@ border: 1px solid #EEEEEE;
   flex-grow: 1;
   align-items: center;
   margin-top: 50px;
-  margin-left: 215px;
   height: 254px;
   gap: 30px;
 }
 
-.title-section {
-    padding-top: 94px;}
-
 .our-team {
-    width: 1600px;
-    height: 600px;
-    margin-top: 94px ;
+    height: 600px; ;
 background: #F5F4FA;
 }
 
-.team-picture { 
+.title-section-team {
+  display: block;
+  flex-grow: 1;
+  align-items: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.title-section-team {
+  width: 198px
+  height: 42px;
 }
 
 .title-section-out-team {
@@ -388,14 +384,15 @@ background: #F5F4FA;
   list-style: none;
   display: flex;
   flex-grow: 1;
-  align-items: center;
-  margin-top: 50px;
+  justify-content: center;
   gap: 30px;
-  margin-left: 215px;
 }
 
-.team-member-name {
- margin: 30px 62px 0px 63px;
+.text-section-team {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  gap: 250px;
 }
 
 .footer-contact-info {
@@ -436,33 +433,29 @@ top: 616px;
 }
 
 .footer {
-    position: absolute;
-width: 1600px;
 height: 251px;
-left: 0px;
-top: 1950px;
   background: #2f303a;
 }
 
 .company-logo-footer {
     display: flex;
   flex-grow: 1;
-  align-items: center;
-  margin: 60px 1240px 28px 255px;
+  margin-left: 500px;
+  padding-top: 60px;
 }
 
 .text-section-adress {
     display: flex;
     flex-grow: 1;
     align-items: center;
-    margin: 28px 1100px 12px 215px ;
+    margin: 28px 1100px 12px 460px ;
 }
 
 .text-section-contact {
     display: flex;
     flex-grow: 1;
     align-items: center;
-    margin: 12px 1178px 12px 215px ;
+    margin: 12px 1178px 12px 460px ;
 }
 
 * {
