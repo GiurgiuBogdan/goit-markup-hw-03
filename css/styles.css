@@ -22,7 +22,7 @@
 }
 
 .company-logo {
-margin-left: 250px;
+margin-left: 400px;
 }
 
 .company-logo::after {
@@ -95,7 +95,7 @@ margin-left: 250px;
   display: flex;
   gap: 40px;
   align-items: center;
-  margin: 32px 200px 32px 0px;
+  margin: 32px 350px 32px 0px;
 }
 
 .link {
@@ -441,20 +441,20 @@ height: 251px;
     display: flex;
   flex-grow: 1;
   padding-top: 60px;
-  margin-left: 250px;
+  margin-left: 400px;
 }
 
 .text-section-adress {
     display: flex;
     flex-grow: 1;
-    margin: 28px 1100px 12px 210px ;
+    margin: 28px 1100px 12px 360px ;
 }
 
 .text-section-contact {
     display: flex;
     flex-grow: 1;
     align-items: center;
-    margin: 12px 1178px 12px 210px ;
+    margin: 12px 1178px 12px 360px ;
 }
 
 * {
