@@ -1,11 +1,16 @@
 .page-header {
   display: flex;
-  flex-grow: 1;
-  align-items: center;
-  height: 80px;
-  background: #ffffff;
+  justify-content: center;
   border: 1px solid #ECECEC;
   }
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+  width: 1170px;
+  height: 80px;
+  background: #ffffff;
+}
 
 .company-logo {
   font-family: "Raleway";
@@ -19,10 +24,6 @@
   text-decoration: none;
   margin-top: 24px;
   margin-bottom: 25px;
-}
-
-.company-logo {
-margin-left: 400px;
 }
 
 .company-logo::after {
@@ -88,14 +89,14 @@ margin-left: 400px;
 .navigation-list {
   display: flex;
   gap: 50px;
-  margin: 32px 0px 32px 93px;
+  margin: 32px 0px 32px 0px;
 }
 
 .right-navigation-list {
   display: flex;
   gap: 40px;
   align-items: center;
-  margin: 32px 350px 32px 0px;
+  margin: 32px 0px 32px 0px;
 }
 
 .link {
@@ -254,8 +255,6 @@ margin-left: 400px;
 .link-portfolio {
   width: 120px;
 height: 38px;
-left: 614px;
-top: 174px;
 }
 
 .link-portfolio:hover {
@@ -395,9 +394,6 @@ background: #F5F4FA;
   gap: 250px;
 }
 
-.footer-contact-info {
-  list-style: none;
-}
 .product-list {
   list-style: none;
 }
@@ -405,7 +401,6 @@ background: #F5F4FA;
 .text-section-portfolio {
   width: 322px;
 height: 30px;
-left: 1039px;
 top: 616px;
 }
 
@@ -433,28 +428,39 @@ top: 616px;
 }
 
 .footer {
-height: 251px;
+  display: flex;
+  justify-content: center;
   background: #2f303a;
 }
 
-.company-logo-footer {
-    display: flex;
-  flex-grow: 1;
+.footer-conteiner {
+  display: block;
+  align-items: center;
+  width: 1170px;
+  height: 251px;
   padding-top: 60px;
-  margin-left: 400px;
+}
+
+.company-logo-footer {
+  width: 145px;
+  height: 31px;
+}
+
+.footer-contact-info {
+  list-style: none;
+  display: block;
+  align-items: center;
+  padding-inline-start: 0px;
 }
 
 .text-section-adress {
-    display: flex;
-    flex-grow: 1;
-    margin: 28px 1100px 12px 360px ;
+  display: block;
+  margin: 28px 0px 12px 0px ;
 }
 
 .text-section-contact {
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    margin: 12px 1178px 12px 360px ;
+  display: flex;
+  margin: 12px 0px 12px 0px ;
 }
 
 * {
