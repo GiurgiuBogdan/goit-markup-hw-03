@@ -7,7 +7,7 @@
 .page-header-container {
   display: flex;
   align-items: center;
-  width: 1170px;
+  width: 1200px;
   height: 80px;
   background: #ffffff;
 }
@@ -114,16 +114,22 @@
   justify-content: center;
   height: 600px;
   top: 80px;
-   }
+  }
 
 .first-section {
  background: #2f303a;
 }
 
+.first-section-container{
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+}
+
 .title {
   display: flex;
   flex-grow: wrap;
-  align-content: center;
+  align-items: center;
   margin-top: 200px;
   width: 696px;
   height: 120px;
@@ -190,14 +196,14 @@
 }
 
 .text-section {
-    display: flex;
-    width: 270px;
-    height: 75px;
-    top: 800px;
-    display: flex;
-    grid-row: auto;
-    justify-content: center;
-    gap: 30px:
+  display: flex;
+  width: 270px;
+  height: 75px;
+  top: 800px;
+  display: flex;
+  grid-row: auto;
+  justify-content: center;
+  gap: 30px:
 }
 
 .title-section, .title-section-team {
@@ -221,6 +227,14 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+
+.portfolio-button-container {
+  display: flex;
+  flex-grow: 1;
+  align-content: center;
+  width: 1200px;
+  margin: auto;
 }
 
 .portfolio-button {
@@ -254,7 +268,7 @@
 
 .link-portfolio {
   width: 120px;
-height: 38px;
+  height: 38px;
 }
 
 .link-portfolio:hover {
@@ -273,13 +287,18 @@ height: 38px;
   border-style: none;
 }
 
+.product-list-container {
+  width: 1200px;
+  margin: auto;
+}
+
 .product-list {
   list-style: none;
-  width: 1200px;
   display: flex;
   align-self: stretch;
   flex-wrap: wrap;
   flex-direction: row;
+  width: 1200px;
   justify-content: space-around;
   gap: 30px;
   margin:auto;
@@ -303,8 +322,8 @@ height: 38px;
 .product-box {
   background: #FFFFFF;
   border: 1px solid #EEEEEE;
-width: 370px;
-height: 404px;
+  width: 370px;
+  height: 404px;
 }
 
 .product-box-element {
@@ -315,31 +334,41 @@ height: 404px;
   justify-content: center;
 }
 
+.company-strong-points-container {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+}
+
 .company-strong-points {
   list-style: none;
   display: flex;
   align-items: center;
   width: 1170px;
-    height: 101px;
+  height: 101px;
   margin-top: 94px;
   gap: 30px;
 }
 
 .sub-title-section {
-    width: 270px;
-    height: 16px;
-    bottom: 10px;
-    align-items: center;
+  width: 270px;
+  height: 16px;
+  bottom: 10px;
+  align-items: center;
 }
 
 .what-we-do {
-  display: block;
-  align-content: center;
-  margin: auto;
+  display: flex;
+  justify-content: center;
   margin-top: 94px;
-    width: 1170px;
-    height: 386px;
-    margin-bottom: 94px;
+  height: 386px;
+  margin-bottom: 94px;
+}
+
+.what-we-do-container{
+  display: block;
+  justify-content: center;
+  width: 1200px;
 }
 
 .title-section {
@@ -361,14 +390,21 @@ height: 404px;
 }
 
 .our-team {
-    height: 600px; ;
-background: #F5F4FA;
+  display: flex;
+  justify-content: center;
+  height: 600px; ;
+  background: #F5F4FA;
+}
+
+.out-team-container {
+  display: block;
+  justify-content: center;
+  width: 1200px;
 }
 
 .title-section-team {
-  display: block;
-  flex-grow: 1;
-  align-items: center;
+  display: flex;
+  justify-content: center;
   padding-top: 94px;
   padding-bottom: 50px;
 }
@@ -400,8 +436,8 @@ background: #F5F4FA;
 
 .text-section-portfolio {
   width: 322px;
-height: 30px;
-top: 616px;
+  height: 30px;
+  top: 616px;
 }
 
 .text-section-portfolio {
@@ -436,7 +472,7 @@ top: 616px;
 .footer-conteiner {
   display: block;
   align-items: center;
-  width: 1170px;
+  width: 1200px;
   height: 251px;
   padding-top: 60px;
 }
