@@ -110,19 +110,21 @@
 }
 
 .first-section {
-  display: flex;
-  justify-content: center;
   height: 600px;
   top: 80px;
   }
 
 .first-section {
- background: #2f303a;
+  display: flex;
+  justify-content: center;
+  background: #2f303a;
 }
 
 .first-section-container{
-  display: flex;
+  display: flex; 
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 1200px;
 }
 
@@ -130,7 +132,6 @@
   display: flex;
   flex-grow: wrap;
   align-items: center;
-  margin-top: 200px;
   width: 696px;
   height: 120px;
 }
@@ -151,15 +152,12 @@
 .request-our-service-button {
   box-sizing: border-box;
   padding: 10px 20px;
-  display: flex;
-  align-content: center;
 }
 
 .request-our-service-button {
-  position: absolute;
   width: 200px;
   height: 50px;
-  margin-top: 350px;
+  margin-top: 40px;
   background-color: #2196f3;
   border-style: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -229,12 +227,17 @@
   color: #212121;
 }
 
+.portoflio-section {
+  display: flex;
+  justify-content: center;
+}
+
 .portfolio-button-container {
   display: flex;
-  flex-grow: 1;
-  align-content: center;
+  flex-direction: row;
+  flex: grow 1;
+  justify-content: center;
   width: 1200px;
-  margin: auto;
 }
 
 .portfolio-button {
@@ -244,11 +247,11 @@
 
 .portfolio-button {
   display: flex;
-  flex-grow: 1;
   justify-content: center;
   gap: 8px;
   margin-top: 94px;
   margin-bottom: 50px;
+  padding-left: 0px;
 }
 
 .link-portfolio {
@@ -287,9 +290,15 @@
   border-style: none;
 }
 
+.product-list-section {
+  display: flex;
+  justify-content: center;
+}
+
 .product-list-container {
+  display: flex;
+  align-content: center;
   width: 1200px;
-  margin: auto;
 }
 
 .product-list {
@@ -298,10 +307,10 @@
   align-self: stretch;
   flex-wrap: wrap;
   flex-direction: row;
+  padding-left: 0px;
   width: 1200px;
   justify-content: space-around;
   gap: 30px;
-  margin:auto;
 }
 
 .product {
@@ -366,8 +375,6 @@
 }
 
 .what-we-do-container{
-  display: block;
-  justify-content: center;
   width: 1200px;
 }
 
@@ -397,8 +404,6 @@
 }
 
 .out-team-container {
-  display: block;
-  justify-content: center;
   width: 1200px;
 }
 
@@ -421,6 +426,7 @@
   flex-grow: 1;
   justify-content: center;
   gap: 30px;
+  padding-left: 0px;
 }
 
 .text-section-team {
